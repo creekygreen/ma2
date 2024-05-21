@@ -16,10 +16,10 @@ dependencies:
   from_css_color: 2.0.0
   google_fonts: 4.0.3
   youtube_player_flutter: ^9.0.1
-  youtube_player_iframe: 
-    git:
-      url: https://github.com/FlutterFlow/youtube_player_flutter.git
-      path: packages/youtube_player_iframe
+  rive: ^0.10.3
+
+dependency_overrides:
+  rive_common: 0.0.3
 
 dev_dependencies:
   flutter_test:
