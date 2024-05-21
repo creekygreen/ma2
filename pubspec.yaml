@@ -1,0 +1,31 @@
+name: ma2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutterflow_ui: ^0.2.0+1
+  flutter:
+    sdk: flutter
+  carousel_slider: 4.2.1
+
+  auto_size_text: 3.0.0
+  from_css_color: 2.0.0
+  google_fonts: 4.0.3
+  youtube_player_flutter: ^9.0.1
+  youtube_player_iframe: 
+    git:
+      url: https://github.com/FlutterFlow/youtube_player_flutter.git
+      path: packages/youtube_player_iframe
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
