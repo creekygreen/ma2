@@ -52,7 +52,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 width: 300,
                 height: 200,
                 fit: BoxFit.contain,
@@ -86,7 +86,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                     image: DecorationImage(
                       fit: BoxFit.cover,
                       image: Image.asset(
-                        'assets/images/2024-01-22_15_08_09-6.png',
+                        'lib/assets/images/2024-01-22_15_08_09-6.png',
                       ).image,
                     ),
                   ),
@@ -125,7 +125,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(8),
                   child: Image.asset(
-                    'assets/images/v2tO51hf9N5Fig6mmAZTyF3jw6JYjwnVUSlBVHnV.png',
+                    'lib/assets/images/v2tO51hf9N5Fig6mmAZTyF3jw6JYjwnVUSlBVHnV.png',
                     width: 391,
                     height: 82,
                     fit: BoxFit.fill,

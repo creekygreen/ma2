@@ -53,7 +53,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 width: 300,
                 height: 200,
                 fit: BoxFit.contain,
@@ -97,7 +97,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
-                            'assets/images/5vEeUOGcbzUKjTYLmgLWg7L6rN6iBR7tj7fjUqnW.png',
+                            'lib/assets/images/5vEeUOGcbzUKjTYLmgLWg7L6rN6iBR7tj7fjUqnW.png',
                             width: 135,
                             height: 200,
                             fit: BoxFit.cover,
@@ -258,7 +258,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
-                            'assets/images/GoFKWsxDpFOYdYNFL6QWa4zKHt20N6iyno4ZmVIA.png',
+                            'lib/assets/images/GoFKWsxDpFOYdYNFL6QWa4zKHt20N6iyno4ZmVIA.png',
                             width: 111,
                             height: 200,
                             fit: BoxFit.cover,
@@ -286,7 +286,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
-                            'assets/images/VrL5uhMnCCmCWDJ85E84om58H6GNXpjxJrqjAabI.png',
+                            'lib/assets/images/VrL5uhMnCCmCWDJ85E84om58H6GNXpjxJrqjAabI.png',
                             width: 111,
                             height: 200,
                             fit: BoxFit.cover,
@@ -447,7 +447,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
-                            'assets/images/mE0QAPEHN2K5sd2Df7WlO6mVoQem739keFUOon7b.png',
+                            'lib/assets/images/mE0QAPEHN2K5sd2Df7WlO6mVoQem739keFUOon7b.png',
                             width: 111,
                             height: 200,
                             fit: BoxFit.cover,
@@ -475,7 +475,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
-                            'assets/images/whIrS8HyCLEdbeTJQD7s7kxcoHVV0TrajBLFE0CS.png',
+                            'lib/assets/images/whIrS8HyCLEdbeTJQD7s7kxcoHVV0TrajBLFE0CS.png',
                             width: 111,
                             height: 200,
                             fit: BoxFit.cover,

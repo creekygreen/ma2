@@ -29,3 +29,20 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - lib/assets/images/1.jpg
+    - lib/assets/images/2.jpg
+    - lib/assets/images/3.jpg
+    - lib/assets/images/5vEeUOGcbzUKjTYLmgLWg7L6rN6iBR7tj7fjUqnW.png
+    - lib/assets/images/2024-01-22_15_08_09-6.png
+    - lib/assets/images/2024-05-16_15_51_18-IZN_Formal.png
+    - lib/assets/images/2024-05-17_21_49_50-Final_SupGen.png
+    - lib/assets/images/appli.png
+    - lib/assets/images/GoFKWsxDpFOYdYNFL6QWa4zKHt20N6iyno4ZmVIA.png
+    - lib/assets/images/logo.png
+    - lib/assets/images/mE0QAPEHN2K5sd2Df7WlO6mVoQem739keFUOon7b.png
+    - lib/assets/images/pay.png
+    - lib/assets/images/req.png
+    - lib/assets/images/v2tO51hf9N5Fig6mmAZTyF3jw6JYjwnVUSlBVHnV.png
+    - lib/assets/images/VrL5uhMnCCmCWDJ85E84om58H6GNXpjxJrqjAabI.png
+    - lib/assets/images/whIrS8HyCLEdbeTJQD7s7kxcoHVV0TrajBLFE0CS.png

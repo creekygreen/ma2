@@ -67,7 +67,7 @@ class _Event1WidgetState extends State<Event1Widget> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 width: 300,
                 height: 200,
                 fit: BoxFit.contain,
@@ -104,7 +104,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8),
                       child: Image.asset(
-                        'assets/images/2024-05-17_21_49_50-Final_SupGen.png',
+                        'lib/assets/images/2024-05-17_21_49_50-Final_SupGen.png',
                         width: 337.2,
                         height: 200,
                         fit: BoxFit.cover,
@@ -147,7 +147,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'assets/images/cxi3o_1.jpg',
+                      'lib/assets/images/cxi3o_1.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.fitHeight,
@@ -156,7 +156,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'assets/images/g2t7j_2.jpg',
+                      'lib/assets/images/g2t7j_2.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.cover,
@@ -165,7 +165,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'assets/images/7fbgi_3.jpg',
+                      'lib/assets/images/7fbgi_3.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.cover,

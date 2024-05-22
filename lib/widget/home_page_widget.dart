@@ -82,7 +82,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 width: 300,
                 height: 200,
                 fit: BoxFit.contain,
@@ -174,7 +174,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
                                         child: Image.asset(
-                                          'assets/images/appli.png',
+                                          'lib/assets/images/appli.png',
                                           width: 47,
                                           height: 57,
                                           fit: BoxFit.none,
@@ -235,7 +235,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
                                         child: Image.asset(
-                                          'assets/images/req.png',
+                                          'lib/assets/images/req.png',
                                           width: 57,
                                           height: 57,
                                           fit: BoxFit.none,
@@ -296,7 +296,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
                                         child: Image.asset(
-                                          'assets/images/pay.png',
+                                          'lib/assets/images/pay.png',
                                           width: 58,
                                           height: 56,
                                           fit: BoxFit.none,
@@ -469,7 +469,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: Image.asset(
-                                        'assets/images/2024-05-17_21_49_50-Final_SupGen.png',
+                                        'lib/assets/images/2024-05-17_21_49_50-Final_SupGen.png',
                                       ).image,
                                     ),
                                   ),
@@ -541,7 +541,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: Image.asset(
-                                        'assets/images/2024-05-16_15_51_18-IZN_Formal.png',
+                                        'lib/assets/images/2024-05-16_15_51_18-IZN_Formal.png',
                                       ).image,
                                     ),
                                   ),

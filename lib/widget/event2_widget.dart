@@ -52,7 +52,7 @@ class _Event2WidgetState extends State<Event2Widget> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 width: 300,
                 height: 200,
                 fit: BoxFit.contain,
@@ -86,7 +86,7 @@ class _Event2WidgetState extends State<Event2Widget> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8),
                       child: Image.asset(
-                        'assets/images/2024-05-16_15_51_18-IZN_Formal.png',
+                        'lib/assets/images/2024-05-16_15_51_18-IZN_Formal.png',
                         width: 337.2,
                         height: 200,
                         fit: BoxFit.cover,
