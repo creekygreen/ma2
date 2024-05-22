@@ -16,10 +16,28 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  bool dialogOpened = true;
+
   @override
   void initState() {
     super.initState();
     _model = createModel(context, () => PaymentfaciModel());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      showDialog(
+        context: context,
+        builder: (cxt) => AlertDialog(
+          actions: [
+            TextButton(
+              onPressed: () {
+              Navigator.of(context).pop();
+            },
+            child: const Text('Close'),
+            ),
+          ],
+          content: const Text('Welcome to the Payment Facilities Page. Online or Over-the-Counter payment methods are listed here.')),
+      ).then((_) => dialogOpened = false);
+    });
   }
 
   @override

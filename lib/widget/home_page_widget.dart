@@ -37,6 +37,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  bool dialogOpened = true;
+
   @override
   void initState() {
     super.initState();
@@ -50,6 +52,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 
     _model.textController3 ??= TextEditingController();
     _model.textFieldFocusNode3 ??= FocusNode();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      showDialog(
+        context: context,
+        builder: (cxt) => AlertDialog(
+          actions: [
+            TextButton(
+              onPressed: () {
+              Navigator.of(context).pop();
+            },
+            child: const Text('Close'),
+            ),
+          ],
+          title: const Text('Welcome'),
+          content: const Text('Welcome to the De La Salle Information App')),
+      ).then((_) => dialogOpened = false);
+    });
   }
 
   @override
