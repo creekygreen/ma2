@@ -147,7 +147,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'lib/assets/images/cxi3o_1.jpg',
+                      'lib/assets/images/1.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.fitHeight,
@@ -156,7 +156,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'lib/assets/images/g2t7j_2.jpg',
+                      'lib/assets/images/2.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.cover,
@@ -165,7 +165,7 @@ class _Event1WidgetState extends State<Event1Widget> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(0),
                     child: Image.asset(
-                      'lib/assets/images/7fbgi_3.jpg',
+                      'lib/assets/images/3.jpg',
                       width: 337.2,
                       height: 479,
                       fit: BoxFit.cover,
