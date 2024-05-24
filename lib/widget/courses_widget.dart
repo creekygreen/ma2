@@ -38,9 +38,9 @@ class _CoursesWidgetState extends State<CoursesWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFF008635),
+        backgroundColor: const Color(0xFF008635),
         appBar: AppBar(
-          backgroundColor: Color(0xFF008635),
+          backgroundColor: const Color(0xFF008635),
           automaticallyImplyLeading: false,
           leading: InkWell(
             splashColor: Colors.transparent,
@@ -69,7 +69,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   letterSpacing: 0,
                 ),
           ),
-          actions: [],
+          actions: const [],
           centerTitle: true,
           elevation: 2,
         ),
@@ -83,7 +83,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   child: Container(
                     width: MediaQuery.sizeOf(context).width,
                     height: 150,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [Color(0xFF008635), Color(0xFF65BB3C)],
                         stops: [0, 1],
@@ -110,7 +110,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                           children: [
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                               child: Text(
                                 'Integrated School',
                                 textAlign: TextAlign.start,
@@ -136,30 +136,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: FFButtonWidget(
                                 onPressed: () {
-                                  print('Button pressed ...');
                                 },
                                 text: 'View',
                                 options: FFButtonOptions(
                                   width: 80,
                                   height: 26.7,
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24, 0, 24, 0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                       0, 0, 0, 0),
                                   color: Colors.white,
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFF008635),
+                                        color: const Color(0xFF008635),
                                         fontSize: 11,
                                         letterSpacing: 0,
                                       ),
                                   elevation: 3,
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
@@ -177,7 +176,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   child: Container(
                     width: MediaQuery.sizeOf(context).width,
                     height: 150,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [Color(0xFF008635), Color(0xFF65BB3C)],
                         stops: [0, 1],
@@ -196,7 +195,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                           children: [
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                               child: Text(
                                 'Colleges',
                                 textAlign: TextAlign.start,
@@ -222,30 +221,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: FFButtonWidget(
                                 onPressed: () {
-                                  print('Button pressed ...');
                                 },
                                 text: 'View',
                                 options: FFButtonOptions(
                                   width: 80,
                                   height: 26.7,
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24, 0, 24, 0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                       0, 0, 0, 0),
                                   color: Colors.white,
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFF008635),
+                                        color: const Color(0xFF008635),
                                         fontSize: 11,
                                         letterSpacing: 0,
                                       ),
                                   elevation: 3,
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
@@ -272,7 +270,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   child: Container(
                     width: MediaQuery.sizeOf(context).width,
                     height: 150,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [Color(0xFF008635), Color(0xFF65BB3C)],
                         stops: [0, 1],
@@ -299,7 +297,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                           children: [
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                               child: Text(
                                 'Graduate Programs',
                                 textAlign: TextAlign.start,
@@ -325,30 +323,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: FFButtonWidget(
                                 onPressed: () {
-                                  print('Button pressed ...');
                                 },
                                 text: 'View',
                                 options: FFButtonOptions(
                                   width: 80,
                                   height: 26.7,
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24, 0, 24, 0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                       0, 0, 0, 0),
                                   color: Colors.white,
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFF008635),
+                                        color: const Color(0xFF008635),
                                         fontSize: 11,
                                         letterSpacing: 0,
                                       ),
                                   elevation: 3,
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
@@ -366,7 +363,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   child: Container(
                     width: MediaQuery.sizeOf(context).width,
                     height: 150,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [Color(0xFF008635), Color(0xFF65BB3C)],
                         stops: [0, 1],
@@ -385,7 +382,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                           children: [
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                               child: Text(
                                 'College of Law',
                                 textAlign: TextAlign.start,
@@ -411,30 +408,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: FFButtonWidget(
                                 onPressed: () {
-                                  print('Button pressed ...');
                                 },
                                 text: 'View',
                                 options: FFButtonOptions(
                                   width: 80,
                                   height: 26.7,
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24, 0, 24, 0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                       0, 0, 0, 0),
                                   color: Colors.white,
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFF008635),
+                                        color: const Color(0xFF008635),
                                         fontSize: 11,
                                         letterSpacing: 0,
                                       ),
                                   elevation: 3,
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
@@ -461,7 +457,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                   child: Container(
                     width: MediaQuery.sizeOf(context).width,
                     height: 150,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [Color(0xFF008635), Color(0xFF65BB3C)],
                         stops: [0, 1],
@@ -488,7 +484,7 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                           children: [
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                               child: Text(
                                 'iPACE',
                                 textAlign: TextAlign.start,
@@ -514,30 +510,29 @@ class _CoursesWidgetState extends State<CoursesWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                                  const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: FFButtonWidget(
                                 onPressed: () {
-                                  print('Button pressed ...');
                                 },
                                 text: 'View',
                                 options: FFButtonOptions(
                                   width: 80,
                                   height: 26.7,
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24, 0, 24, 0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                       0, 0, 0, 0),
                                   color: Colors.white,
                                   textStyle: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFF008635),
+                                        color: const Color(0xFF008635),
                                         fontSize: 11,
                                         letterSpacing: 0,
                                       ),
                                   elevation: 3,
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.transparent,
                                     width: 1,
                                   ),

@@ -57,7 +57,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: Color(0xFF008635),
+          backgroundColor: const Color(0xFF008635),
           automaticallyImplyLeading: false,
           leading: InkWell(
             splashColor: Colors.transparent,
@@ -86,7 +86,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                   letterSpacing: 0,
                 ),
           ),
-          actions: [],
+          actions: const [],
           centerTitle: true,
           elevation: 2,
         ),
@@ -113,7 +113,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 5),
+                        padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 5),
                         child: Text(
                           'Payment Facilities',
                           textAlign: TextAlign.center,
@@ -125,7 +125,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 20),
+                        padding: const EdgeInsetsDirectional.fromSTEB(10, 0, 10, 20),
                         child: Text(
                           'Easy Payments, Anytime, Anywhere: Convenient Ways to Pay',
                           textAlign: TextAlign.center,
@@ -155,15 +155,14 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                   children: [
                     FFButtonWidget(
                       onPressed: () {
-                        print('Button pressed ...');
                       },
                       text: 'Online Payment',
                       options: FFButtonOptions(
                         width: MediaQuery.sizeOf(context).width * 0.4,
                         height: 40,
-                        padding: EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
-                        iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
-                        color: Color(0xFF00872C),
+                        padding: const EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
+                        iconPadding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                        color: const Color(0xFF00872C),
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
                                   fontFamily: 'Readex Pro',
@@ -172,7 +171,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                                   letterSpacing: 0,
                                 ),
                         elevation: 3,
-                        borderSide: BorderSide(
+                        borderSide: const BorderSide(
                           color: Colors.transparent,
                           width: 1,
                         ),
@@ -181,14 +180,13 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                     ),
                     FFButtonWidget(
                       onPressed: () {
-                        print('Button pressed ...');
                       },
                       text: 'Over-the-Counter',
                       options: FFButtonOptions(
                         width: MediaQuery.sizeOf(context).width * 0.4,
                         height: 40,
-                        padding: EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
-                        iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
+                        iconPadding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
                         color: Colors.white,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -198,7 +196,7 @@ class _PaymentfaciWidgetState extends State<PaymentfaciWidget> {
                               letterSpacing: 0,
                             ),
                         elevation: 3,
-                        borderSide: BorderSide(
+                        borderSide: const BorderSide(
                           color: Colors.transparent,
                           width: 1,
                         ),

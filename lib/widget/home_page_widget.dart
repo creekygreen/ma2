@@ -88,7 +88,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: Color(0xFF00872C),
+          backgroundColor: const Color(0xFF00872C),
           automaticallyImplyLeading: false,
           leading: InkWell(
             splashColor: Colors.transparent,
@@ -117,7 +117,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   letterSpacing: 0,
                 ),
           ),
-          actions: [],
+          actions: const [],
           centerTitle: true,
           elevation: 2,
         ),
@@ -130,21 +130,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 Container(
                   width: MediaQuery.sizeOf(context).width,
                   height: 352,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xFF00872C),
                   ),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     children: [
-                      Spacer(),
+                      const Spacer(),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 5),
+                        padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 5),
                         child: Text(
                           'Be a Lasallian!',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Readex Pro',
-                                    color: Color(0xFFFBFBFB),
+                                    color: const Color(0xFFFBFBFB),
                                     fontSize: 25,
                                     letterSpacing: 0,
                                     fontWeight: FontWeight.bold,
@@ -156,13 +156,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
-                              color: Color(0xFFF6F6F6),
+                              color: const Color(0xFFF6F6F6),
                               fontSize: 20,
                               letterSpacing: 0,
                             ),
                       ),
-                      Spacer(),
-                      Container(
+                      const Spacer(),
+                      SizedBox(
                         width: double.infinity,
                         height: 184,
                         child: CarouselSlider(
@@ -188,7 +188,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 10),
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
@@ -249,7 +249,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 10),
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
@@ -310,7 +310,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 10),
                                       child: ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
@@ -371,7 +371,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 10),
                                       child: Text(
                                         'OUR PROGRAMS',
@@ -415,23 +415,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                     ],
                   ),
                 ),
                 Container(
                   width: MediaQuery.sizeOf(context).width,
                   height: 468,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.white,
                   ),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Spacer(),
+                      const Spacer(),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 5),
+                        padding: const EdgeInsetsDirectional.fromSTEB(0, 20, 0, 5),
                         child: Text(
                           'Latest News and Events',
                           style:
@@ -445,7 +445,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
+                        padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
                         child: Text(
                           'Stay connected. Be the first to know about exciting opportunities and activities',
                           textAlign: TextAlign.center,
@@ -458,7 +458,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   ),
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: double.infinity,
                         height: 180,
                         child: CarouselSlider(
@@ -499,7 +499,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
                                           'May 17,2024',
@@ -516,7 +516,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
                                           'Video Message of the Superior General for the Feast of St John Baptist de La Salle [May 15,2024]',
@@ -524,7 +524,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Readex Pro',
-                                                color: Color(0xFFF6F6F6),
+                                                color: const Color(0xFFF6F6F6),
                                                 fontSize: 10,
                                                 letterSpacing: 0,
                                               ),
@@ -571,7 +571,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
                                           'May 16,2024',
@@ -588,7 +588,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
                                           'Internationalization Workshop Takes a Look at Global Education Strategies',
@@ -596,7 +596,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Readex Pro',
-                                                color: Color(0xFFF6F6F6),
+                                                color: const Color(0xFFF6F6F6),
                                                 fontSize: 10,
                                                 letterSpacing: 0,
                                               ),
@@ -624,21 +624,20 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                        padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                         child: FFButtonWidget(
                           onPressed: () {
-                            print('Button pressed ...');
                           },
                           text: 'View More',
                           options: FFButtonOptions(
                             height: 40,
                             padding:
-                                EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
+                                const EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
                             iconPadding:
-                                EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
-                            color: Color(0xFF00872C),
+                                const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                            color: const Color(0xFF00872C),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -647,7 +646,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   letterSpacing: 0,
                                 ),
                             elevation: 3,
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Colors.transparent,
                               width: 1,
                             ),
@@ -655,14 +654,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                     ],
                   ),
                 ),
                 Container(
                   width: MediaQuery.sizeOf(context).width,
                   height: 352,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xFF00872C),
                   ),
                   child: Row(
@@ -671,10 +670,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     children: [
                       Flexible(
                         child: Align(
-                          alignment: AlignmentDirectional(0, 0),
+                          alignment: const AlignmentDirectional(0, 0),
                           child: Padding(
                             padding:
-                                EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                                const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
                             child: Text(
                               'Subscribe to \nLatest Updates',
                               textAlign: TextAlign.center,
@@ -703,16 +702,16 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Readex Pro',
-                                    color: Color(0xFFF9F9F9),
+                                    color: const Color(0xFFF9F9F9),
                                     letterSpacing: 0,
                                   ),
                             ),
                             Container(
                               width: 200,
-                              decoration: BoxDecoration(),
+                              decoration: const BoxDecoration(),
                               child: Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                                    const EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
                                 child: TextFormField(
                                   controller: _model.textController1,
                                   focusNode: _model.textFieldFocusNode1,
@@ -724,7 +723,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         .labelMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
-                                          color: Color(0xFFF9F9F9),
+                                          color: const Color(0xFFF9F9F9),
                                           letterSpacing: 0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
@@ -770,7 +769,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFFF9F9F9),
+                                        color: const Color(0xFFF9F9F9),
                                         letterSpacing: 0,
                                       ),
                                   validator: _model.textController1Validator
@@ -784,15 +783,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Readex Pro',
-                                    color: Color(0xFFFDFDFD),
+                                    color: const Color(0xFFFDFDFD),
                                     letterSpacing: 0,
                                   ),
                             ),
-                            Container(
+                            SizedBox(
                               width: 200,
                               child: Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                                    const EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
                                 child: TextFormField(
                                   controller: _model.textController2,
                                   focusNode: _model.textFieldFocusNode2,
@@ -804,7 +803,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         .labelMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
-                                          color: Color(0xFFF9F9F9),
+                                          color: const Color(0xFFF9F9F9),
                                           letterSpacing: 0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
@@ -850,7 +849,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFFF9F9F9),
+                                        color: const Color(0xFFF9F9F9),
                                         letterSpacing: 0,
                                       ),
                                   validator: _model.textController2Validator
@@ -870,10 +869,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                             Container(
                               width: 200,
-                              decoration: BoxDecoration(),
+                              decoration: const BoxDecoration(),
                               child: Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                                    const EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
                                 child: TextFormField(
                                   controller: _model.textController3,
                                   focusNode: _model.textFieldFocusNode3,
@@ -885,7 +884,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         .labelMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
-                                          color: Color(0xFFF9F9F9),
+                                          color: const Color(0xFFF9F9F9),
                                           letterSpacing: 0,
                                         ),
                                     hintStyle: FlutterFlowTheme.of(context)
@@ -931,7 +930,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        color: Color(0xFFF9F9F9),
+                                        color: const Color(0xFFF9F9F9),
                                         letterSpacing: 0,
                                       ),
                                   validator: _model.textController3Validator
@@ -941,25 +940,24 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                             FFButtonWidget(
                               onPressed: () {
-                                print('Button pressed ...');
                               },
                               text: 'Submit',
                               options: FFButtonOptions(
                                 height: 40,
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     24, 0, 24, 0),
                                 iconPadding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                                    const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
                                 color: Colors.white,
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleSmall
                                     .override(
                                       fontFamily: 'Readex Pro',
-                                      color: Color(0xFF00872C),
+                                      color: const Color(0xFF00872C),
                                       letterSpacing: 0,
                                     ),
                                 elevation: 3,
-                                borderSide: BorderSide(
+                                borderSide: const BorderSide(
                                   color: Colors.transparent,
                                   width: 1,
                                 ),
